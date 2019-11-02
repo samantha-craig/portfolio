@@ -1,0 +1,364 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    background-color: #F8F8F8;
+    width: 100%;
+    min-width: 750px;
+    height: 60px;
+}
+
+#header_contain{
+    width: 75%;
+    min-width: 610px;
+    max-width: 900px;
+    height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    font-family: 'Song Myung', sans-serif;
+    color: #fcb853;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 60px;
+}
+
+header a{
+    text-decoration: none;
+    color: #fcb853;
+}
+
+nav{
+    margin: 0px;
+    width: 45%;
+    min-width: 270px;
+    max-width: 370px;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #fcb853;
+    font-size: 14px;
+}
+
+header nav a:link{
+    text-decoration: none;
+    color: #fcb853;
+}
+
+header nav a:visited{
+    text-decoration: none;
+    color: #fcb853;
+}
+
+header nav a:hover{
+    text-decoration: none;
+    color: #464646;
+}
+
+header nav a:active{
+    text-decoration: none;
+    color: #464646;
+}
+
+
+
+
+#main{
+    width: 75%;
+    min-width: 750px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#return{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: lightgrey;
+    margin-bottom: 10px;
+}
+
+#return a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+#info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+#info h1{
+    font-family: 'Song Myung', serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #464646;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#info h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #B2B1B1;
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+#info p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #464646;
+    margin-bottom: 20px;
+}
+
+#left_column{
+    width: 50%;
+}
+
+#right_column{
+    width: 40%;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#project{
+    margin-bottom: 100px;
+}
+
+.project_img{
+    width: 100%;
+}
+
+.cover_img{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background-color: gainsboro;
+    box-shadow: 2px 2px 5px lightgrey;
+}
+
+.small_img{
+    width: 30%;
+    background-color: gainsboro;
+    box-shadow: 2px 2px 5px lightgrey;
+    margin-bottom: 2%;
+}
+
+.small_img_left{
+    margin-right: 2%;
+}
+
+.medium_img{
+    width: 62%;
+    background-color: gainsboro;
+    box-shadow: 2px 2px 5px lightgrey;
+    margin-bottom: 2%;
+}
+
+.medium_img_row_2{
+    width: 62%;
+    background-color: gainsboro;
+    box-shadow: 2px 2px 5px lightgrey;
+    margin-bottom: 2%;
+}
+
+.row_2_contain{
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.large_img{
+    width: 100%;
+    background-color: gainsboro;
+    box-shadow: 2px 2px 5px lightgrey;
+}
+
+.short_detail{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tall_detail{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.caption{
+    width: 34%;
+    margin-right: 4%;
+}
+
+#project h2{
+    font-family: 'Song Myung', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #464646;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+#project p{
+    font-family: 'Lato', sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+
+#bottom_links{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#return_bottom{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: lightgrey;
+    margin-bottom: 10px;
+}
+
+#bottom_links a:link{
+    text-decoration: none;
+    color: lightgray;
+}
+
+#bottom_links a:visited{
+    text-decoration: none;
+    color: lightgray;
+}
+
+#bottom_links a:hover{
+    text-decoration: none;
+    color: #fcb853;
+}
+
+#bottom_links a:active{
+    text-decoration: none;
+    color: #fcb853;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    clear: both;
+    background-color: #727272;
+    height: 80px;
+    color: white;
+    min-width: 750px;
+}
+
+#footer_contain{
+    width: 75%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+footer h5{
+    font-family: 'Song Myung', serif;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+footer h6{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: .04em;
+}
+
+footer nav{
+    float: right;
+    min-width: 270px;
+    max-width: 350px;
+    margin: 0px;
+    height: 80px;
+    line-height: 80px;
+}
+
+footer nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav li{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #EA5F5D;
+    font-size: 13px;
+}
+
+footer nav a:link{
+    text-decoration: none;
+    color: white;
+}
+
+footer nav a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+footer nav a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+footer nav a:active{
+    text-decoration: none;
+    color: white;
+}

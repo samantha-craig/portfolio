@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    background-color: #F8F8F8;
+    width: 100%;
+    min-width: 750px;
+    height: 60px;
+}
+
+#header_contain{
+    width: 75%;
+    min-width: 610px;
+    max-width: 900px;
+    height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    font-family: 'Song Myung', sans-serif;
+    color: #fcb853;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 60px;
+}
+
+header a{
+    text-decoration: none;
+    color: #fcb853;
+}
+
+nav{
+    margin: 0px;
+    width: 45%;
+    min-width: 270px;
+    max-width: 370px;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #fcb853;
+    font-size: 14px;
+}
+
+header nav a:link{
+    text-decoration: none;
+    color: #fcb853;
+}
+
+header nav a:visited{
+    text-decoration: none;
+    color: #fcb853;
+}
+
+header nav a:hover{
+    text-decoration: none;
+    color: #464646;
+}
+
+header nav a:active{
+    text-decoration: none;
+    color: #464646;
+}
+
+
+
+
+#main{
+    height: 600px;
+}
+
+#main_container{
+    width: 75%;
+    min-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#portrait{
+    width: 320px;
+    height: 320px;
+}
+
+#bio{
+    width: 50%;
+}
+
+#bio h2{
+    font-family: 'Song Myung', sans-serif;
+    color: #fcb853;
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+#bio p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: gray;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+#actions{
+    display: flex;
+}
+
+.button{
+    width: 140px;
+    height: 35px;
+    background-color: #fcb853;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 3px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+#download_icon{
+    height: 10px;
+    width: 10px;
+    margin-left: 5px;
+}
+
+#actions h3{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#actions a:link{
+    text-decoration: none;
+    color: white;
+}
+
+#actions a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#actions a:hover{
+    text-decoration: none;
+    color: dimgray;
+}
+
+#actions a:active{
+    text-decoration: none;
+    color: dimgray;
+}
+
+
+
+
+footer{
+    clear: both;
+    background-color: #727272;
+    width: 100%;
+    height: 80px;
+    color: white;
+    min-width: 750px;
+    position: absolute;
+    bottom: 0;
+}
+
+#footer_contain{
+    width: 75%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+footer h5{
+    font-family: 'Song Myung', serif;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+footer h6{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: .04em;
+}
+
+footer nav{
+    float: right;
+    min-width: 270px;
+    max-width: 350px;
+    margin: 0px;
+    height: 80px;
+    line-height: 80px;
+}
+
+footer nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav li{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #EA5F5D;
+    font-size: 13px;
+}
+
+footer nav a:link{
+    text-decoration: none;
+    color: white;
+}
+
+footer nav a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+footer nav a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+footer nav a:active{
+    text-decoration: none;
+    color: white;
+}
