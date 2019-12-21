@@ -229,39 +229,39 @@ hr{
 }
 
 #hotel{
-    background-image: url(images/hotel.png);
+    background-image: url(images/hotel.jpg);
     background-size: cover;
 }
 
 #murals{
-    background-image: url(images/murals.png);
+    background-image: url(images/murals.jpg);
     background-size: cover;
 }
 
 #texture_map{
     margin-right: 2%;
-    background-image: url(images/texture_map.png);
+    background-image: url(images/texture_map.jpg);
     background-size: cover;
 }
 
 #plane{
-    background-image: url(images/plane.png);
+    background-image: url(images/plane.jpg);
     background-size: cover;
 }
 
 
 #stairs{
-    background-image: url(images/stairs.png);
+    background-image: url(images/stairs.jpg);
     background-size: cover;
 }
 
 #trees{
-    background-image: url(images/trees.png);
+    background-image: url(images/trees.jpg);
     background-size: cover;
 }
 
 #tree_edit{
-    background-image: url(images/tree_edit.png);
+    background-image: url(images/tree_edit.jpg);
     background-size: cover;
 }
 
@@ -271,7 +271,7 @@ hr{
 }
 
 #planter{
-    background-image: url(images/planter.png);
+    background-image: url(images/planter.jpg);
     background-size: cover;
 }
 
